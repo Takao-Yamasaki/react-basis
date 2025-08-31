@@ -37,12 +37,12 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            このプルリクエストをレビューし、以下の点について日本語でレビューをお願いします。
-            - コードの品質とベストプラクティス
-            - 潜在的なバグや問題
-            - パフォーマンスに関する考慮事項
-            - セキュリティ上の懸念事項
-            - テストカバレッジ
+            Please review this pull request and provide feedback on:
+            - Code quality and best practices
+            - Potential bugs or issues
+            - Performance considerations
+            - Security concerns
+            - Test coverage
             
             Use the repository's CLAUDE.md for guidance on style and conventions. Be constructive and helpful in your feedback.
 
