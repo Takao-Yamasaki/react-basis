@@ -1,5 +1,7 @@
 // hooksをimportする
 import { useEffect, useState } from "react";
+// default exportの場合、import時に{}で囲う必要はない
+// import Hoge from "./components/ColorfulMessage";
 import { ColorfulMessage } from "./components/ColorfulMessage";
 
 // アロー関数で記載する
