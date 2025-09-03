@@ -1,4 +1,5 @@
 export const ColorfulMessage = ({ color, children }) => {
+  console.log("--ColorfulMessage--");
   // 分割代入
   // const { color, children } = props;
   const contentStyleA = {
