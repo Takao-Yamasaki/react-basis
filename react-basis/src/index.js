@@ -1,5 +1,7 @@
-import { StrictMode } from "react";
+// import { StrictMode } from "react";
 import { createRoot } from "react-dom/client"
+// 拡張子は省略できる。定義している名前と同じ名前でインポートする
+import { App } from "./App";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -8,8 +10,8 @@ const root = createRoot(rootElement);
 // const App = () => <h1>こんにちは!</h1>;
 
 root.render(
-  <StrictMode>
+  // <StrictMode>
     <App />
-  </StrictMode>
+  // </StrictMode>
 );
 
